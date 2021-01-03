@@ -7,7 +7,6 @@ modelo varchar (30),
 tamanho tinyint,
 primary key (id)
 );
-
 insert into Proteses values
 ('emea19','3300TFX19','Aortica','Edwards','Magna Ease','19'),
 ('emea21','3300TFX21','Aortica','Edwards','Magna Ease','21'),
@@ -19,7 +18,6 @@ insert into Proteses values
 ('emem29','7300TFX29','Mitral','Edwards','Magna Ease','29'),
 ('emem31','7300TFX31','Mitral','Edwards','Magna Ease','31'),
 ('emem33','7300TFX33','Mitral','Edwards','Magna Ease','33');
-
 select * from Proteses;
 create table cirurgias(
 id int not null auto_increment,
